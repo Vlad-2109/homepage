@@ -324,3 +324,23 @@ body {
 .additional-info__icon-arrow {
 	width: 30px;
 }
+
+.additional-info__qualities {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 3px dashed var(--border-color);
+}
+
+.additional-info__qualities-header {
+	color: var(--secondary-text-color);
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.additional-info__qualities-items-container {
+	padding-left: 20px;
+}
+
+.additional-info__qualities-item {
+	color: var(--secondary-text-color);
+}
