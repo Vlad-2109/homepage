@@ -84,7 +84,7 @@ body {
 		border-bottom: 3px dashed var(--border-color);
 	}
 
-	.additional-info{
+	.additional-info {
 		margin-top: 10px;
 	}
 }
@@ -258,8 +258,12 @@ body {
 }
 
 .experiences__icon-wrapper {
-	margin-left: 50px;
+	display: flex;
+	justify-content: center;
 	margin-bottom: 25px;
+}
+
+.experiences__icon-arrow {
 	width: 30px;
 }
 
