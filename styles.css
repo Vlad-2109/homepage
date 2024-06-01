@@ -80,6 +80,12 @@ body {
 
 	.experiences {
 		margin-right: 0;
+		border-right: none !important;
+		border-bottom: 3px dashed var(--border-color);
+	}
+
+	.additional-info{
+		margin-top: 10px;
 	}
 }
 
@@ -202,8 +208,9 @@ body {
 
 /*Experience and additional info styles*/
 .experiences {
-	flex: 1 1 60%;
+	flex: 1 1 50%;
 	margin-right: 50px;
+	border-right: 3px dashed var(--border-color);
 }
 
 .experiences__header {
@@ -250,8 +257,14 @@ body {
 	padding-left: 20px;
 }
 
+.experiences__icon-wrapper {
+	margin-left: 50px;
+	margin-bottom: 25px;
+	width: 30px;
+}
+
 .additional-info {
-	flex: 1 1 40%;
+	flex: 1 1 50%;
 }
 
 .additional-info__education {
